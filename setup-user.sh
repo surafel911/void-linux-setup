@@ -10,3 +10,5 @@ cp .gitconfig ~/
 sudo cp xorg.conf /etc/X11/
 
 usermod -a -G wheel $USER
+
+echo "startx" >> ~/.bash_profile
