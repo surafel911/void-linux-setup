@@ -20,3 +20,5 @@ alias gpsh='git push'
 alias gpul='git pull'
 
 PS1='[\u@\h \W]\$ '
+
+pfetch
