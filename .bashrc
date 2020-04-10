@@ -19,6 +19,11 @@ alias glog='git log'
 alias gpsh='git push'
 alias gpul='git pull'
 
+alias sudo='sudo '
+alias xi='xbps-install'
+alias xq='xbps-query'
+alias xr='xbps-remove'
+
 PS1='[\u@\h \W]\$ '
 
 pfetch
