@@ -12,6 +12,7 @@ dejavu-fonts-ttf
 nvidia
 dbus
 pulseaudio
+alsa-plugins-pulseaudio
 pulsemixer
 picom
 nitrogen
@@ -32,5 +33,4 @@ tree
 htop
 wcalc
 pfetch
-mono-devel
-msbuild-bin
+apvlv

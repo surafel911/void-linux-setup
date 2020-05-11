@@ -7,8 +7,7 @@ cp .xinitrc ~/
 cp .inputrc ~/
 cp .bashrc ~/
 cp .gitconfig ~/
-sudo cp xorg.conf /etc/X11/
 
-usermod -a -G wheel $USER
+sudo usermod $USER -a -G wheel,audio
 
 echo "startx" >> ~/.bash_profile

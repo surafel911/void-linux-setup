@@ -1,12 +1,24 @@
 #! /bin/bash
 
 FILE='void-packages.txt'
+EXTRASFILE='void-packages-extra.txt'
 PACKAGES=""
+OPTPACKAGES=$1
 
-sudo xbps-install void-repo-nonfree
+function install {
+	while IFS= read -r LINE; do
+	    PACKAGES+="$LINE "
+	done < $1
 
-while IFS= read -r LINE; do
-    PACKAGES+="$LINE "
-done < $FILE
+	sudo xbps-install -y $PACKAGES
+}
 
-sudo xbps-install -Su $PACKAGES
+sudo xbps-install -Suy void-repo-nonfree
+
+install $FILE
+
+if [ $OPTPACKAGES -eq 0 ]; then
+	echo "Optional packages not installed."
+elif [ $OPTPACKAGES -eq 1 ]; then
+	install $EXTRASFILE
+fi

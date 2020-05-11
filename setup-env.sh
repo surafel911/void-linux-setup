@@ -11,5 +11,5 @@ sudo ln -sf /usr/bin/code-oss /usr/bin/vscode
 
 sudo sv start dbus
 
-os-prober
+sudo os-prober
 sudo nvim /boot/grub/grub.cfg
