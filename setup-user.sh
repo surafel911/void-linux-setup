@@ -6,7 +6,6 @@ cp -r desktop/ ~/
 cp .xinitrc ~/
 cp .inputrc ~/
 cp .bashrc ~/
-cp .gitconfig ~/
 
 sudo usermod $USER -a -G wheel,audio
 
