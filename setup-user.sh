@@ -7,6 +7,6 @@ cp .xinitrc ~/
 cp .inputrc ~/
 cp .bashrc ~/
 
-sudo usermod $USER -a -G wheel,audio
+sudo usermod $USER -a -G wheel,audio,docker
 
 echo "startx" >> ~/.bash_profile
