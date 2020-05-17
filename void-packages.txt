@@ -33,4 +33,5 @@ tree
 htop
 wcalc
 pfetch
-apvlv
+mupdf
+mpv
