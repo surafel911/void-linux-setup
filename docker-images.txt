@@ -1,0 +1,5 @@
+postgres:alpine
+mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine
+adoptopenjdk/openjdk11:alpine
+adoptopenjdk/maven-openjdk11 
