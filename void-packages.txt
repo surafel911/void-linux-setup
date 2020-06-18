@@ -25,7 +25,6 @@ firefox
 libavcodec
 feh
 docker
-vscode
 man-pages
 man-pages-devel
 man-pages-posix
@@ -35,3 +34,4 @@ wcalc
 pfetch
 mupdf
 mpv
+httpie
